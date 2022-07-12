@@ -1,0 +1,23 @@
+.b-navflex {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+   height: 100px;
+   background-image: url("Assets/header.jpg");
+   background-size: cover;
+
+   font-size: 15px;
+   
+}
+.b-lista1 {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-indent: 10px;
+    padding-right: 10%;
+    &--btween {
+        justify-content: space-between;
+    }
+    
+}

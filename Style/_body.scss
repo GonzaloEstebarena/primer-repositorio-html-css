@@ -1,0 +1,37 @@
+.b-article1 {
+  padding-top:100px ; 
+
+}
+
+.b-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+img {
+    height: 200px;
+    width: 100%;
+    
+}
+.b-divspace{
+    margin: 20px;
+    &--width{
+        width: 40%;
+    }
+}
+.b-a {
+    text-decoration: none;
+    color: greenyellow;
+}
+.b-row {
+    display: flex;
+    flex-direction: row;
+
+}
+.b-list2 {
+    list-style:decimal;
+    text-indent: 10px;
+    &--none {
+        list-style: none;
+    }
+}
